@@ -1,0 +1,8 @@
+[package]
+name = "echo_server_service"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+echo_proxy_lib = { path = "../echo_proxy_lib" }
